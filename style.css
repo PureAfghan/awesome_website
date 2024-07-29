@@ -1,0 +1,69 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.right-link {
+  display: flex;
+  gap: 10px;
+}
+
+
+.body {
+  display: flex;
+  margin-left: 50px;
+  justify-content: space-between;
+  
+}
+
+.body-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 250px;
+  flex: 1;
+  margin: 0;
+  padding: 0;
+
+}
+
+button {
+
+  background-color: lightseagreen;
+  color: darkmagenta;
+  padding: 5px;
+
+}
+
+.top {
+  background-color: teal;
+  
+}
+
+.top-mid-images {
+  display: flex;
+  max-width: 10px;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+#top-mid-title {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.info {
+  max-width: 500px;
+}
+
+.top-mid img {
+  width: 300px;
+  height: auto;
+}
+
+.top-mid {
+  background-color: gray;
+}
